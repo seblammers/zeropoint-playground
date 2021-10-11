@@ -1,45 +1,33 @@
+![zeropoint-logo](https://user-images.githubusercontent.com/2457670/136286979-a5e2d90b-518e-4ce5-a50c-6696add0f302.png)
+
 # ZeroPoint
-This site uses [Eleventy](https://www.11ty.dev), [GitHub](https://github.com), and [Netlify](https://netlify.com).
+It's easier than ever to launch a website! ZeroPoint is built to take advantage of great tools, like [Eleventy](https://www.11ty.dev), [GitHub](https://github.com), and [Netlify](https://netlify.com) to provide a free, easy-enough-to-use editing and publishing experience for new users and seasoned developers alike. ZeroPoint is intended to be a starting place for any web project; from a personal blog, to a business website!
 
-# Start Right Now!
-Get started **right from this readme file!**.
+_ZeroPoint: get your project up to zero._
 
-## Step 1: Content
-### Pages
-Create your site's main content! Pages can be written in HTML or [Markdown](https://www.markdownguide.org/basic-syntax/)!
-* [Edit the homepage](https://github.com/MWDelaney/ZeroPoint/edit/master/src/pages/index.njk)
-* [Create a new page](https://github.com/MWDelaney/ZeroPoint/new/master/?filename=/src/pages/&value=---%0Atitle%3A%20Enter%20page%20title%20here%0A---)
+## What is ZeroPoint?
+### For new users
+_ZeroPoint_ is a free, new-user-friendly website starter designed to walk you through creating and publishing a fast, secure web project using modern tools and technology. zeropoint makes it easy to "get up to zero" and start building your site.
 
-<!--
+### For experienced developers
+_ZeroPoint_ is a modern, opinionated, bare-bones Jamstack starter using Eleventy to get "up to zero" on a project quickly and easily.
+Why you might choose _ZeroPoint_ as your Jamstack starter:
+* Powered by Eleventy, which [rocks](https://11ty.rocks)!
+* No CSS frameworks or libraries; use whatever you like best
+* GitHub Action replaces the ZeroPoint name throughout the site with your project's name!
+* Sass for CSS
+* Webpack for Javascript
+* Browsersync to preview your work
 
----
-### Posts
-Blog posts
-* [Create a new post](https://github.com/MWDelaney/ZeroPoint/new/master/?filename=/src/posts/&value=----%0Atitle%3A%20%22Enter%20post%20title%22%0Adate%3A%20%222025-01-01%0A---)
+ ## Get started: Use This Template!
+### Right from this README:
+[Click here](https://github.com/MWDelaney/ZeroPoint/generate) to create a new project using ZeroPoint and add it to your GitHub account.
 
--->
----
-## Step 2: Look and Feel
-### Navigation
-Getting there from here
-* [Edit the navigation](https://github.com/MWDelaney/ZeroPoint/edit/master/src/data/navigation.json)
+### With [GitHub CLI](https://cli.github.com):
+```sh
+gh repo create example.com --template MWDelaney/ZeroPoint
+```
 
-### Styles
-Colors, spacing, and fonts, oh my!
-* [Edit your branding](https://github.com/MWDelaney/ZeroPoint/edit/master/src/assets/styles/_branding.scss)
-* [Edit your overall styles](https://github.com/MWDelaney/ZeroPoint/edit/master/src/assets/styles/styles.scss)
-
-### Javascript
-**Optional!** Add javascript functionality to your site
-* [Add Javascript](https://github.com/MWDelaney/ZeroPoint/edit/master/src/assets/scripts/main.js)
-
----
-## Step 3: Deploy!
-Launch your project to Netlify for free:
-
-![Deploy this site to Netlify](https://www.netlify.com/img/deploy/button.svg)
-
----
 # Get to Know ZeroPoint
 Ready to go deeper? Here's how ZeroPoint is laid out:
 
@@ -65,7 +53,7 @@ example.com                 # → Root of your ZeroPoint-based project
 │       └── pages.json      # → Shared pages attributes
 ├── .eleventy.js            # → Core Eleventy config file
 ├── netlify.toml            # → Netlify deployment and plugin configuration (optional)
-├── README.template               # → ZeroPoint readme (automatically removed when this template is used)
+├── README.template.md      # → ZeroPoint readme
 └── README.md               # → Your project's readme (automatically generated when this template is used)
 ```
 
